@@ -1,0 +1,46 @@
+
+table {
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+table thead {
+	border: none;
+}
+
+
+table th {
+	background-color: #DDDDDD;
+}
+
+table th,
+table td {
+	padding: 6px 20px 6px 20px;
+}
+
+table td {
+	border-right: 1px solid #EEEEEE;
+	padding: 7px 20px 7px 20px;
+}
+
+
+table td:nth-child(1) {
+	border-right: 1px solid #EEEEEE;
+}
+
+table input[type=checkbox],
+table input[type=checkbox] {
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+table td:nth-last-child(1) {
+	border-right: none;
+}
+
+table td {
+	border-top: 1px solid #CCCCCC;
+}
