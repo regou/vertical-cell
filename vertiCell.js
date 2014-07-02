@@ -87,7 +87,7 @@
             self.remove=function(){
                 if(masksStorge.length){
                     for(var _i= 0;_i<=masksStorge.length;_i++){
-                        if(masksStorge[_i] && masksStorge[_i].remove){
+                        if(masksStorge[_i]){
                             $(masksStorge[_i]).remove();
                         }
 
